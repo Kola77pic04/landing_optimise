@@ -24,7 +24,7 @@ interface Props {
 
 export default function ProviderCard({ provider, handleSelectOffer }: Props) {
     return (
-        <div className="p-8 rounded-3xl bg-slate-50 border border-slate-800 flex flex-col justify-between">
+        <div className={`p-8 rounded-3xl bg-slate-50 border border-slate-800 ${provider.title !== "Sosh" ? "lg:min-h-108 justify-between" : "lg:h-108 justify-between lg:justify-center"} flex flex-col`}>
             <div>
                 <h3 className="flex justify-between lg:items-center text-lg font-medium text-slate-900 mb-2">
                     {provider.title}

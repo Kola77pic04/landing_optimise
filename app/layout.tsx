@@ -15,17 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "La Plateforme de Centre de Contact IA Conçue pour l'Échelle",
-  description: "Vocalcom.ai unifie chaque canal, client et agent dans une plateforme IA native pour une CX plus rapide et humaine.",
+  title: "Profitez d'une fibre et d'un forfait mobile à tarif réduit",
+  description: "Profitez d'une fibre et d'un forfait mobile à tarif réduit. Demande rapide et sans engagement.",
   icons: {
-    icon: "/apple-touch-icon.png",
+    icon: "/comparer_fibre.png",
   },
    openGraph: {
-    images: ["/apple-touch-icon.png"],
+    images: ["/comparer_fibre.png"],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/apple-touch-icon.png"],
+    images: ["/comparer_fibre.png"],
   },
 };
 
