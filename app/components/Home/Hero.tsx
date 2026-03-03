@@ -2,15 +2,14 @@
 
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
 
 export default function HeroHome() {
-    const searchParams = useSearchParams();
-    const [search, setSearch] = useState<string | null>(null);
+  const [search, setSearch] = useState<string | null>(null);
 
-    useEffect(() => {
-        setSearch(searchParams.get("utm_term"));
-    }, [searchParams]);
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setSearch(params.get("utm_term"));
+  }, []);
 
     useEffect(() => {
         localStorage.removeItem("selectedOffer");

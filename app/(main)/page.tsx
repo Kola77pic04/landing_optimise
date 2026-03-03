@@ -5,17 +5,20 @@ import InsuranceSection from "../components/Home/InsuranceSection";
 import Credibility from "../components/Home/Credibility";
 import Testimonials from "../components/Home/Testimonials";
 import ProviderList from "../components/Home/ProviderList";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <MainLayout>
-      <main className="">
-        <HeroHome />
-        <InsuranceSection />
-        <QuizSection />
-        <Credibility />
-        <Testimonials />
-      </main>
-    </MainLayout>
+    <Suspense fallback={null}>
+      <MainLayout>
+        <main className="">
+          <HeroHome />
+          <InsuranceSection />
+          <QuizSection />
+          <Credibility />
+          <Testimonials />
+        </main>
+      </MainLayout>
+    </Suspense>
   );
 }
