@@ -28,7 +28,7 @@ export default function HeroHome() {
 
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900 mb-6 leading-[1.15] max-w-4xl mx-auto">
                         Passez à la fibre plus rapide,<br className="hidden md:block" />
-                        plus stable, <span className="text-blue-600">plus simple.</span>
+                        plus stable, <span className="text-blue-600">plus économique.</span>
                     </h2>
 
                     <p className="text-base md:text-lg text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
