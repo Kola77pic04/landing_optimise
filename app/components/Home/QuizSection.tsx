@@ -52,10 +52,10 @@ export default function QuizSection() {
                     </div>
                     <div className="max-w-2xl mx-auto lg:w-1/2 lg:pt-6 xl:pt-8">
                         <div className="text-center mb-10">
-                            <h3 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 mb-3">
-                                Trouvons la meilleure offre pour vous.
+                            <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3 lg:px-2">
+                                <span className="text-red-700">Freebox</span> Fibre : trouvez l’offre idéale pour votre foyer
                             </h3>
-                            <p className="lg:px-4 text-sm text-slate-500 font-light">Répondez à ces quelques questions pour obtenir une recommandation précise.</p>
+                            <p className="lg:px-4 text-[13px] text-slate-500 font-light">Analyse en 2 min + 100% gratuit + Sans engagement</p>
                         </div>
                         <QuizCard
                             currentStep={currentStep}
